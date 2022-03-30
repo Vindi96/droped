@@ -1,0 +1,29 @@
+.cat-list{
+    float: left;
+    margin-top: 10px; 
+    padding: 25px 18px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
+    margin-left:0;
+    width: 20%;
+ }
+ .cat-header{
+     background-color: #cc300077;
+     color: aliceblue;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     text-align: center;
+     
+ }
+ .cat-items li{
+     padding: 15px;
+     font-size: medium;
+     list-style-type: square !important;
+     
+ }
+ .cat-items li a{
+     text-decoration: none;
+     color: rgb(63, 61, 61);
+ }
+ .cat-items li a:hover{
+     color: #cc300077;
+ }
